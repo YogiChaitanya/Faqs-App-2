@@ -1,0 +1,47 @@
+/* Write your code here. */
+
+.list-card {
+  padding: 20px;
+
+  border: 1px solid #d7dae6;
+  border-radius: 20px;
+
+  margin-bottom: 20px;
+}
+
+.heading2 {
+  font-size: 24px;
+  color: #52606d;
+}
+.paragraph2 {
+  font-size: 15px;
+  color: #9aa5b1;
+}
+.show {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.plus-minus-btn {
+  background-color: transparent;
+
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.plus-minus-img {
+  height: 30px;
+  width: 30px;
+}
+
+@media (max-width: 768px) {
+  .heading2 {
+    font-size: 18px;
+  }
+
+  .paragraph2 {
+    font-size: 10px;
+  }
+}
